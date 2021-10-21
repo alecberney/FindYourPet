@@ -5,13 +5,13 @@
     </div>
     <div class="bottom">
       <h2>
-        <p>- Trouvez des animeaux proches de chez vous !</p>
-        <p>- Créez des annonces pour vos animeaux !</p>
+        <p>- Trouvez des animaux proches de chez vous !</p>
+        <p>- Créez des annonces pour vos animaux !</p>
       </h2>
-      <div class="buttons">
+    </div>
+    <div class="buttons">
         <button> Voir des annonces </button>
         <button> Créer des annonces </button>
-      </div>
     </div>
   </div>
 </template>
@@ -21,27 +21,37 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-div{
+h1,
+h2,
+but {
+  font-family: cursive;
+}
+
+.landing1{
   background-color: #FAE5DC;
   width: 80%;
   margin: auto;
   margin-top: 80px;
-  padding: 30px;
-}
-
-.landing1{
+  padding: 20px;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
 }
 
+.landing1 div {
+   margin: auto;
+  width: 80%;
+}
+
 .bottom {
+  padding: 20px;
   background-color: #F7C9D1;
 }
 
 .buttons {
   display: flex;
   justify-content: space-around;
-  background-color: #F7C9D1;
+  padding: 20px;
 }
 
 .buttons button {
