@@ -5,6 +5,7 @@
   <HelloWorld url="images/kitty.jpg" alt="image"/>
   <HelloWorld url="images/doggo.jpg" alt="image"/>
   <HelloWorld url="images/pets.jpg" alt="image"/>
+  <DevTeam/>
   <Footer/>
 
 </template>
@@ -14,6 +15,7 @@ import HelloWorld from './components/HelloWorld.vue'
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
 import Landing1 from './components/Landing_1.vue'
+import DevTeam from './components/Dev_team.vue'
 
 export default {
   name: 'App',
@@ -21,7 +23,8 @@ export default {
     HelloWorld,
     Header,
     Footer,
-    Landing1
+    Landing1,
+    DevTeam
   }
 }
 </script>
@@ -41,7 +44,6 @@ body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   padding-top: 80px;
   width: 100%;
