@@ -6,7 +6,7 @@
 
 <script>
 const axios = require('axios');
-axios.get('http://localhost:3000/cats/miaaaaaou').then(response => console.log(response));
+axios.get('http://localhost:3000/cats/miaou').then(response => console.log(response));
 
 export default {
   name: 'HelloWorld',
