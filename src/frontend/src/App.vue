@@ -30,7 +30,11 @@ export default {
 body {
   width: 100%;
   margin: 0;
-  background-color: #FCF1EE; 
+  background-image: url("./assets/images/pets.jpg") ; 
+  background-size: 100%;
+  background-repeat:repeat-x;
+  background-attachment:fixed;
+  background-position: left top;
 }
 
 #app {
