@@ -41,9 +41,22 @@ div{
 .buttons {
   display: flex;
   justify-content: space-around;
+  background-color: #F7C9D1;
 }
 
 .buttons button {
-  height: 40px;
+   display: inline-block;
+  padding: .75rem 1.25rem;
+  border-radius: 10rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background-color: #F29188;
+  border-color:#F29166
+  
 }
 </style>
