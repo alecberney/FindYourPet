@@ -2,11 +2,12 @@ import { Module } from '@nestjs/common';
 import { CatsModule } from './cats/cats.module';
 import { ConfigModule } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { dotenv } from 'dotenv/config';
+import { AnimalModule } from './animal/animal.module';
 
 @Module({
   imports: [
     CatsModule,
+    AnimalModule,
     ConfigModule.forRoot({ isGlobal: true, envFilePath: 'database/.env' }),
     TypeOrmModule.forRoot({
       type: 'postgres',
