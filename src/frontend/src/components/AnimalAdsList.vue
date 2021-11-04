@@ -1,10 +1,13 @@
 <template>
-  <div>
-    <ul>
-      <li v-for="animal in this.animals" :key="animal.id">
-        <AnimalAd :animal="animal"/>
-      </li>
-    </ul>
+  <div class="main">
+    <h1>Annonces récentes :</h1>
+    <div class="list">
+      <ul>
+        <li v-for="animal in this.animals.slice(0,3)" :key="animal.id" style="list-style-type:none">
+          <AnimalAd :animal="animal"/>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -33,12 +36,27 @@ export default {
 
 <style scoped>
 
-div {
-  background-color: #FAE5DC;
-  width: 80%;
-  height: 600px;
+.main {
+  background-color: var(--main-color);
+  width: 90%;
+  padding: 20px;
+  height: 800px;
   margin: auto;
-  margin-top: 80px;
-  overflow: auto;
+  margin-bottom: 40px;
+  border-bottom: solid;
+  border-left: solid;
+  border-right: solid;
+  border-color: var(--sub-color);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  
 }
+
+.list {
+  height: 85%;
+  overflow: auto;
+
+}
+
+
 </style>

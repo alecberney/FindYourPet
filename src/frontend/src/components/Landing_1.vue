@@ -5,13 +5,13 @@
     </div>
     <div class="bottom">
       <h2>
-        <p>- Trouvez des animeaux proches de chez vous !</p>
-        <p>- Créez des annonces pour vos animeaux !</p>
+        <p>Trouvez des animaux proches de chez vous !</p>
+        <p>Créez des annonces pour vos animaux !</p>
       </h2>
-      <div class="buttons">
+    </div>
+    <div class="buttons">
         <button> Voir des annonces </button>
         <button> Créer des annonces </button>
-      </div>
     </div>
   </div>
 </template>
@@ -19,44 +19,57 @@
 <script>
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
-div{
-  background-color: #FAE5DC;
-  width: 80%;
-  margin: auto;
-  margin-top: 80px;
-  padding: 30px;
-}
+<style scoped>      
 
 .landing1{
+  border-radius: 25px;
+  background-color: var(--main-color);
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 20px;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
+  border: solid;
+  border-color: var(--sub-color);
+}
+
+.landing1 div {
+   margin: auto;
+  width: 80%;
 }
 
 .bottom {
-  background-color: #F7C9D1;
+  padding: 20px;
+  border-radius: 100px;
+  background-color: var(--secondary-color);
+  border: solid;
+  border-color:var(--sub-color);
+  text-align: center;
 }
 
 .buttons {
   display: flex;
   justify-content: space-around;
-  background-color: #F7C9D1;
+  padding: 20px;
 }
 
 .buttons button {
    display: inline-block;
   padding: .75rem 1.25rem;
   border-radius: 10rem;
-  text-transform: uppercase;
   font-size: 1rem;
   letter-spacing: .15rem;
   transition: all .3s;
   position: relative;
   overflow: hidden;
-  z-index: 1;
-  background-color: #F29188;
-  border-color:#F29166
-  
+  background-color: var(--secondary-color);
+  border-color:var(--sub-color);
+}
+
+.buttons button:hover{
+  background-color: var(--select-color);
 }
 </style>

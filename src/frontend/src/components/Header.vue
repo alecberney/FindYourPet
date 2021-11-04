@@ -1,9 +1,12 @@
 <template>
   <div class="header">
       <div class="logo">
-        <img src="@/assets/images/findyourpet_logo.png" alt="logo">
+        <a href="/index.html">
+            <img src="@/assets/images/findyourpet_logo.png" alt="logo" >
+        </a>
       </div>
-      <div class="title">
+      <div class="title"> 
+        
       </div>
       <div class="menu">
           <img src="@/assets/images/hamburger_menu.png" alt="menu">
@@ -22,37 +25,36 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1 {
-    color: #000;
-    size: 36px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
-    }
 
 .header {
-    height: 90px;
+    height: 80px;
     width: 100%;
     position: fixed;
+    z-index: 1;
     top: 0;
     display: flex;
     justify-content: space-between;
-    background-color:  	#4e598c;
+    background-color: var(--header-color);
+    border-bottom: solid;
+    border-color: var(--sub-color);
 }
 
 .logo {
-    width: 20%;
     border-right:solid;
-    border-right-color: #FCF1EE;
+    border-right-color: var(--sub-color);
     align-content: flex-start;
 }
 
 .logo img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 
 .title {
-    width: 60%;
-    justify-content: center;
+  width: 100%;
+text-align: center;
+background-repeat: no-repeat;
+  background-size: cover ;
 }
 
 .menu {
