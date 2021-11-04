@@ -5,8 +5,9 @@
             <img src="@/assets/images/findyourpet_logo.png" alt="logo" >
         </a>
       </div>
-      <div class="title"> 
-        
+      <div class="title">
+       <button> Home </button>
+       <button> Annonces </button>
       </div>
       <div class="menu">
           <img src="@/assets/images/hamburger_menu.png" alt="menu">
@@ -15,12 +16,6 @@
 </template>
 
 <script>
-export default {
-  name: 'Title',
-  props: {
-    title: String
-  }
-}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -51,10 +46,23 @@ export default {
 }
 
 .title {
+  display:flex;
   width: 100%;
-text-align: center;
-background-repeat: no-repeat;
-  background-size: cover ;
+}
+
+.title button {
+  height: 100%;
+  padding: 20px;
+  font-size: 24px;
+  color: white;
+  border: none;
+  background-color: var(--header-color);
+
+  transition: all .3s;
+}
+
+.title button:hover {
+  background-color: var(--header-selection-color);
 }
 
 .menu {

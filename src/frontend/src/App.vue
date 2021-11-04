@@ -1,30 +1,25 @@
 <template>
-  <Header title="find your pet"/>
-  <Landing1/>
-  <Landing2/>
-  <AnimalAdsList/>
-  <DevTeam/>
-  <Footer/>
-
+  <div>
+    <Header/>
+    <LandingPage/>
+    <hello-world url="/images/doggo.jpg"/>
+    <Footer/>
+  </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
-import Landing1 from './components/Landing_1.vue'
-import Landing2 from './components/Landing_2.vue'
-import AnimalAdsList from './components/AnimalAdsList'
-import DevTeam from './components/Dev_team.vue'
+import LandingPage from './components/LandingPage.vue'
+import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
     Footer,
-    Landing1,
-    Landing2,
-    AnimalAdsList,
-    DevTeam
+    HelloWorld,
+    LandingPage
   }
 }
 </script>
@@ -59,6 +54,7 @@ p{
   --secondary-color: #ffcf99;
   --sub-color: #ff80aa77;
   --header-color: #4e598c;
+   --header-selection-color: #5a648f;
   
   /*
   --main-color: #595758;

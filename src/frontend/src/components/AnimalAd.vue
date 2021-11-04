@@ -80,6 +80,7 @@ img{
   border: solid;
   border-color: var(--sub-color);
   flex: 2;
+  overflow:hidden;
 }
 
 </style>
