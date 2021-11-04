@@ -4,10 +4,10 @@
     <h1>L'équipe Find Your Pet</h1>
     </div>
     <div class="bottom">
-      <Dev url = "images/doggo.jpg" name= "Alec Berney" />
-      <Dev url = "images/doggo.jpg" name= "Teo Ferrari" />
-      <Dev url = "images/doggo.jpg" name= "Quentin Forestier" />
-      <Dev url = "images/doggo.jpg" name= "Melvyn Herzig" />  
+      <Dev url = "images/Berney.png" name= "Alec Berney" />
+      <Dev url = "images/Ferrari.png" name= "Teo Ferrari" />
+      <Dev url = "images/Forestier.png" name= "Quentin Forestier" />
+      <Dev url = "images/Herzig.png" name= "Melvyn Herzig" />  
     </div>
   </div>
 </template>
@@ -25,17 +25,12 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-h1,
-h2,
-but {
-  font-family: cursive;
-}
-
 .devteam{
-  background-color: #FAE5DC;
-  width: 80%;
+  background-color: var(--main-color);
+  width: 90%;
   margin: auto;
-  margin-top: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   padding: 20px;
 
 }
@@ -47,6 +42,8 @@ but {
   height: 80%;
   display: flex;
   justify-content: space-around;
-  background-color: #F7C9D1;
+  background-color: var(--secondary-color);
+  border: solid;
+  border-color: var(--sub-color);
 }
 </style>

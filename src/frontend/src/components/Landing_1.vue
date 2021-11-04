@@ -5,8 +5,8 @@
     </div>
     <div class="bottom">
       <h2>
-        <p>- Trouvez des animaux proches de chez vous !</p>
-        <p>- Créez des annonces pour vos animaux !</p>
+        <p>Trouvez des animaux proches de chez vous !</p>
+        <p>Créez des annonces pour vos animaux !</p>
       </h2>
     </div>
     <div class="buttons">
@@ -19,19 +19,14 @@
 <script>
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
-h1,
-h2,
-but {
-  font-family: cursive;
-}
+<style scoped>      
 
 .landing1{
-  background-color: #FAE5DC;
-  width: 80%;
+  background-color: var(--main-color);
+  width: 90%;
   margin: auto;
   margin-top: 80px;
+  margin-bottom: 40px;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -45,7 +40,10 @@ but {
 
 .bottom {
   padding: 20px;
-  background-color: #F7C9D1;
+  background-color: var(--secondary-color);
+  border: solid;
+  border-color:var(--sub-color);
+  text-align: center;
 }
 
 .buttons {
@@ -58,15 +56,16 @@ but {
    display: inline-block;
   padding: .75rem 1.25rem;
   border-radius: 10rem;
-  text-transform: uppercase;
   font-size: 1rem;
   letter-spacing: .15rem;
   transition: all .3s;
   position: relative;
   overflow: hidden;
-  z-index: 1;
-  background-color: #F29188;
-  border-color:#F29166
-  
+  background-color: var(--secondary-color);
+  border-color:var(--sub-color);
+}
+
+.buttons button:hover{
+  background-color: var(--select-color);
 }
 </style>
