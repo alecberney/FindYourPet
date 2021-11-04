@@ -27,14 +27,14 @@ export default {
 <style scoped>
 
 .header {
-    height: 120px;
+    height: 80px;
     width: 100%;
     position: fixed;
     z-index: 1;
     top: 0;
     display: flex;
     justify-content: space-between;
-    background-color:  var(--main-color);
+    background-color: var(--header-color);
     border-bottom: solid;
     border-color: var(--sub-color);
 }
@@ -46,13 +46,15 @@ export default {
 }
 
 .logo img {
-    width: 120px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
 }
 
 .title {
-
+  width: 100%;
 text-align: center;
+background-repeat: no-repeat;
+  background-size: cover ;
 }
 
 .menu {

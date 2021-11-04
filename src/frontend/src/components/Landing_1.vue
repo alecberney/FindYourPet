@@ -22,15 +22,18 @@
 <style scoped>      
 
 .landing1{
+  border-radius: 25px;
   background-color: var(--main-color);
   width: 90%;
   margin: auto;
-  margin-top: 80px;
+  margin-top: 40px;
   margin-bottom: 40px;
   padding: 20px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  border: solid;
+  border-color: var(--sub-color);
 }
 
 .landing1 div {
@@ -40,6 +43,7 @@
 
 .bottom {
   padding: 20px;
+  border-radius: 100px;
   background-color: var(--secondary-color);
   border: solid;
   border-color:var(--sub-color);

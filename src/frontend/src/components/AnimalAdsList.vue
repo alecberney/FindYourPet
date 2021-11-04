@@ -43,14 +43,16 @@ export default {
   height: 800px;
   margin: auto;
   margin-bottom: 40px;
- 
+  border-bottom: solid;
+  border-left: solid;
+  border-right: solid;
+  border-color: var(--sub-color);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
   
 }
 
 .list {
-  border: solid;
-  background-color: var(--main-color);
-  border-color: var(--sub-color);
   height: 85%;
   overflow: auto;
 

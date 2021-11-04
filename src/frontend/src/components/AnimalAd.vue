@@ -40,6 +40,7 @@ export default {
   border-color: var(--sub-color);
   padding: 10px;
   margin: 30px;
+  border-radius: 100px;
   transition: all .3s;
 }
 
@@ -57,9 +58,12 @@ img{
   width: 160px;
   height: 160px;
   align-self: center;
+  border-radius: 100px;
 }
 
 .name{
+  
+  border-radius: 50px;
   flex: 1;
   width: 100px;
   text-align: left;
@@ -70,6 +74,8 @@ img{
 }
 
 .description{
+  
+  border-radius: 50px;
   padding-left: 20px;
   border: solid;
   border-color: var(--sub-color);

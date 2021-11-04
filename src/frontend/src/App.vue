@@ -5,6 +5,7 @@
   <AnimalAdsList/>
   <DevTeam/>
   <Footer/>
+
 </template>
 
 <script>
@@ -52,11 +53,12 @@ p{
   --sub-color: #7A3A23;
   */
   
-  --main-color: #4E598C;
-  --bg-color: #FFFFFF;
-  --select-color: #F9C784;
-  --secondary-color: #FCAF58;
-  --sub-color: #FF8C42;
+  --main-color: #fadcf1b4;
+  --bg-color: #ffffff;
+  --select-color: #ffdfb6;
+  --secondary-color: #ffcf99;
+  --sub-color: #ff80aa77;
+  --header-color: #4e598c;
   
   /*
   --main-color: #595758;
@@ -72,12 +74,13 @@ p{
   --secondary-color: #F29188;
   --sub-color: #F2B4AE;
   */
+
 }
 
 body {
   width: 100%;
   margin: 0;
-  background-image: url("./assets/images/pets.jpg");
+  background: url("./assets/images/test.jpg");
   background-color: var(--bg-color);
   background-size: 100%;
   background-repeat:repeat-x;

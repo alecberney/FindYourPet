@@ -7,7 +7,7 @@
           Crée un compte
         </li>
         <li>
-          Cré<em></em> une annonce
+          Crée une annonce
         </li>
         <li>
           Attends qu'on autre utilisateur te contacte
@@ -46,9 +46,16 @@
   padding-top: 50px;
   display: flex;
   justify-content: space-between;
+  border-top: solid;
+  border-left: solid;
+  border-RIGHT: solid;
+  border-color: var(--sub-color);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
 .landing2 div {
+  border-radius: 100px;
   margin: auto;
   width: 25%;
   padding: 30px;
@@ -56,5 +63,6 @@
   border: solid;
   border-color:var(--sub-color);
   text-align: left;
+  
 }
 </style>

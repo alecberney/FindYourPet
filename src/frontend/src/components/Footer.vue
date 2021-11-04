@@ -25,6 +25,6 @@ h1 {
     bottom: 0;
     display: flex;
     justify-content: space-between;
-    background-color:  	var(--main-color);
+    background-color:  	var(--header-color);
 }
 </style>

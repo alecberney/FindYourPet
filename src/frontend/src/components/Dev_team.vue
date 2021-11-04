@@ -32,6 +32,9 @@ export default {
   margin-top: 40px;
   margin-bottom: 40px;
   padding: 20px;
+  border: solid;
+  border-color: var(--sub-color);
+  border-radius: 25px;
 
 }
 
@@ -45,5 +48,6 @@ export default {
   background-color: var(--secondary-color);
   border: solid;
   border-color: var(--sub-color);
+  border-radius: 200px;
 }
 </style>
