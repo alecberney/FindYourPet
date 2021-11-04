@@ -1,6 +1,7 @@
 <template>
   <Header title="find your pet"/>
   <Landing-1/>
+  <AnimalAdsList />
   <HelloWorld url="images/background_kitten.jpg" alt="image"/>
   <HelloWorld url="images/kitty.jpg" alt="image"/>
   <HelloWorld url="images/doggo.jpg" alt="image"/>
@@ -15,6 +16,7 @@ import HelloWorld from './components/HelloWorld.vue'
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
 import Landing1 from './components/Landing_1.vue'
+import AnimalAdsList from "./components/AnimalAdsList";
 import DevTeam from './components/Dev_team.vue'
 
 export default {
@@ -24,6 +26,7 @@ export default {
     Header,
     Footer,
     Landing1,
+    AnimalAdsList
     DevTeam
   }
 }
@@ -33,7 +36,7 @@ export default {
 body {
   width: 100%;
   margin: 0;
-  background-image: url("./assets/images/pets.jpg") ; 
+  background-image: url("./assets/images/pets.jpg") ;
   background-size: 100%;
   background-repeat:repeat-x;
   background-attachment:fixed;
