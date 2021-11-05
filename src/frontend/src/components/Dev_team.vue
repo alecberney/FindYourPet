@@ -3,7 +3,7 @@
     <div class = "title">
     <h1>L'équipe Find Your Pet</h1>
     </div>
-    <div class="bottom">
+    <div class="team">
       <Dev url = "images/Berney.png" name= "Alec Berney" />
       <Dev url = "images/Ferrari.png" name= "Teo Ferrari" />
       <Dev url = "images/Forestier.png" name= "Quentin Forestier" />
@@ -26,28 +26,25 @@ export default {
 <style scoped>
 
 .devteam{
-  background-color: var(--main-color);
-  width: 90%;
-  margin: auto;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding: 20px;
-  border: solid;
-  border-color: var(--sub-color);
-  border-radius: 25px;
-
+  background-color: var(--header-color);
+  width: 100%;
+  padding-bottom: 60px;
 }
 
-.bottom {
+.title{
+  text-align: center;
+  padding : 20px;
+}
+
+.team {
   margin: auto;
   padding: 20px;
   width: 80%;
   height: 80%;
   display: flex;
   justify-content: space-around;
-  background-color: var(--secondary-color);
   border: solid;
-  border-color: var(--sub-color);
-  border-radius: 200px;
+  border-color: var(--header-selection-color);
+  border-radius: 10px;
 }
 </style>

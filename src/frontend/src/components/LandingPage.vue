@@ -1,9 +1,10 @@
 <template>
-  <Landing1/>
-  <Landing2/>
-  <AnimalAdsList/>
-  <DevTeam/>
-
+  <div>
+    <Landing1/>
+    <Landing2/>
+    <AnimalAdsList/>
+    <DevTeam/>
+  </div>
 </template>
 
 <script>

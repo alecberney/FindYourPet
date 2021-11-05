@@ -2,7 +2,7 @@
   <div>
     <Header/>
     <LandingPage/>
-    <hello-world url="/images/doggo.jpg"/>
+    <!--<hello-world url="/images/doggo.jpg"/>-->
     <Footer/>
   </div>
 </template>
@@ -11,14 +11,14 @@
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
 import LandingPage from './components/LandingPage.vue'
-import HelloWorld from './components/HelloWorld.vue'
+//import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
     Footer,
-    HelloWorld,
+   // HelloWorld,
     LandingPage
   }
 }
@@ -34,49 +34,49 @@ h3,
 h4,
 h5,
 h6,
-p{
-  font-family: Tahoma, sans-serif ;
+p,
+li,
+button {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button{
+  letter-spacing: .15rem;
 }
 
 :root{
-
-  /*
-  --main-color: #F7C9D1;
-  --bg-color: #FCF1EE;
-  --select-color: #FAE5DC;
-  --secondary-color: #DCA893;
-  --sub-color: #7A3A23;
-  */
-  
-  --main-color: #fadcf1b4;
-  --bg-color: #ffffff;
-  --select-color: #ffdfb6;
-  --secondary-color: #ffcf99;
-  --sub-color: #ff80aa77;
   --header-color: #4e598c;
-   --header-selection-color: #5a648f;
-  
-  /*
-  --main-color: #595758;
-  --bg-color: #FFFFFF;
-  --select-color: #FFE4F3;
-  --secondary-color: #FFC8FB;
-  --sub-color: #FF92C2;
-  */
-  /*
-  --main-color: #A66641;
-  --bg-color: #FFFFFF;
-  --select-color: #F2AF88;
-  --secondary-color: #F29188;
-  --sub-color: #F2B4AE;
-  */
+  --header-selection-color: #5a648f;  
+  --footer-color: #373d5e;
+  --bg-color: #ffffff;
+  --select-color: #4e598c25;
+  --transparent-background-color: rgba(255, 255, 255, 0.85);
+  --transparent-border-color: #5a648f25
 
 }
+
+
+/*hide scrollbar*/
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar {/*Chrome*/
+  display: none;
+}
+
 
 body {
   width: 100%;
   margin: 0;
-  background: url("./assets/images/test.jpg");
   background-color: var(--bg-color);
   background-size: 100%;
   background-repeat:repeat-x;
