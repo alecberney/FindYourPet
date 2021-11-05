@@ -1,17 +1,11 @@
 <template>
   <div class="landing1">
-    <div class = title>
-    <h1>Adoptez un animal de compagnie proche de chez vous maintenant !</h1>
-    </div>
-    <div class="bottom">
-      <h2>
-        <p>Trouvez des animaux proches de chez vous !</p>
-        <p>Créez des annonces pour vos animaux !</p>
-      </h2>
-    </div>
-    <div class="buttons">
-        <button> Voir des annonces </button>
-        <button> Créer des annonces </button>
+    <div class="inner">
+      <img src="../assets/images/findyourpet_logo.png"/>
+      <h1>Adoptez un animal de compagnie proche de chez vous maintenant !</h1>
+      <p>Trouvez des animaux proches de chez vous et créez des annonces pour vos animaux !</p>
+      <button> Voir des annonces </button>
+      <button> Créer des annonces </button>
     </div>
   </div>
 </template>
@@ -19,57 +13,57 @@
 <script>
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>      
+<style scoped>  
 
-.landing1{
-  border-radius: 25px;
-  background-color: var(--main-color);
-  width: 90%;
-  margin: auto;
-  margin-top: 40px;
-  margin-bottom: 40px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+button{
+  color: black;
+}
+
+button {
+  display: inline-block;
   padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  border: solid;
-  border-color: var(--sub-color);
-}
-
-.landing1 div {
-   margin: auto;
-  width: 80%;
-}
-
-.bottom {
-  padding: 20px;
-  border-radius: 100px;
-  background-color: var(--secondary-color);
-  border: solid;
-  border-color:var(--sub-color);
-  text-align: center;
-}
-
-.buttons {
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
-}
-
-.buttons button {
-   display: inline-block;
-  padding: .75rem 1.25rem;
-  border-radius: 10rem;
-  font-size: 1rem;
+  margin: 30px;
   letter-spacing: .15rem;
   transition: all .3s;
   position: relative;
   overflow: hidden;
-  background-color: var(--secondary-color);
-  border-color:var(--sub-color);
+  background-color: transparent;
+  border-color:var(--header-color);
 }
 
-.buttons button:hover{
+button:hover{
   background-color: var(--select-color);
+}
+
+.landing1{
+  background: url("../assets/images/test.jpg");
+  background-attachment:fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 600px;
+  margin: auto;
+  display: flex;
+}
+
+.inner {
+  background: var(--transparent-background-color);
+  padding: 20px;
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+  text-align: center;
+  border: solid;
+  border-color: var(--transparent-border-color);
 }
 </style>
