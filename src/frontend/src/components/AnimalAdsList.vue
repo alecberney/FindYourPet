@@ -22,7 +22,7 @@ export default {
   name: "AnimalAdsList",
   components: {AnimalAd},
   beforeMount() {
-    axios.get('http://localhost:3000/animals').then(result => {
+    axios.get('http://api.findyourpet.ch/animals').then(result => {
       this.animals = result.data;
       console.log(result.data);
     });
