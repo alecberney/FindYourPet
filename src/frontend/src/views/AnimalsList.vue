@@ -24,7 +24,7 @@ export default {
   name: "AnimalAdsList",
   components: {AnimalAd},
   beforeMount() {
-    axios.get('http://localhost:3000/animals').then(result => {
+    axios.get(process.env.VUE_APP_ROOT_API + '/animals').then(result => {
       this.animals = result.data;
       console.log(result.data);
     });
