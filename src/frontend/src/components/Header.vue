@@ -1,18 +1,18 @@
 <template>
   <div class="header">
       <div class="logo">
-        <a href="/index.html">
+        <a @click="$router.push('/')">
             <img src="@/assets/images/findyourpet_logo.png" alt="logo" >
         </a>
       </div>
       <div class="nav">
-       <button> Home </button>
-       <button> Annonces </button>
+       <button @click="$router.push('/')"> Home </button>
+       <button @click="$router.push('/annonces')"> Annonces </button>
       </div>
       <div class="account">
           
-       <button> Login </button>
-       <button> Sign-in </button>
+       <button @click="$router.push('/login  ')"> Login </button>
+       <button @click="$router.push('/register  ')"> Register </button>
       </div>
   </div>
 </template>

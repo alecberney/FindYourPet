@@ -9,11 +9,10 @@
     </div>
     <div class = "description">
       <h2>
-        Titre inspiré
+        Petit chat cherche maison
       </h2>
       <p>
-        Lorem ipsum blablalbla latin blabla  
-        Lorem ipsum blablalbla latin blabla  Lorem ipsum blablalbla latin blabla  Lorem ipsum blablalbla latin blabla  Lorem ipsum blablalbla latin blabla  Lorem ipsum blablalbla latin blabla 
+        Mon petit chat cherche une nouvelle maison car je n'ai plus les moyens de m'en occuper. 
       </p>
     </div>
   </div>
