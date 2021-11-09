@@ -1,8 +1,7 @@
-<template>
+<template> 
   <div>
-    <Header/>
-    <LandingPage/>
-    <!--<hello-world url="/images/doggo.jpg"/>-->
+    <Header/>  
+    <router-view/>
     <Footer/>
   </div>
 </template>
@@ -10,7 +9,7 @@
 <script>
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
-import LandingPage from './components/LandingPage.vue'
+//import LandingPage from './components/LandingPage.vue'
 //import HelloWorld from './components/HelloWorld.vue'
 
 export default {
@@ -19,7 +18,7 @@ export default {
     Header,
     Footer,
    // HelloWorld,
-    LandingPage
+   // LandingPage
   }
 }
 </script>
@@ -77,19 +76,11 @@ body::-webkit-scrollbar {/*Chrome*/
 body {
   width: 100%;
   margin: 0;
+  margin-top: 80px;
   background-color: var(--bg-color);
   background-size: 100%;
   background-repeat:repeat-x;
   background-attachment:fixed;
   background-position: left top;
-}
-
-#app {
-  font-family: sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  padding-top: 80px;
-  width: 100%;
-  height: 100%;
 }
 </style>
