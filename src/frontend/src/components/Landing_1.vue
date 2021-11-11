@@ -2,7 +2,7 @@
   <div class="landing1">
     <div class="inner">
       <img src="../assets/images/findyourpet_logo.png"/>
-      <h1>Adoptez un an<u>n</u>imal de compagnie proche de chez vous maintenant !</h1>
+      <h1>Adoptez un animal de compagnie proche de chez vous maintenant !</h1>
       <p>Trouvez des animaux proches de chez vous et créez des annonces pour vos animaux !</p>
       <button> Voir des annonces </button>
       <button> Créer des annonces </button>
