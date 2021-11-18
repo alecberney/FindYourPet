@@ -1,5 +1,5 @@
 <template> 
-  <div>
+  <div classe = "main-div">
     <Header/>  
     <router-view/>
     <Footer/>
@@ -9,8 +9,6 @@
 <script>
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
-//import LandingPage from './components/LandingPage.vue'
-//import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
@@ -72,6 +70,15 @@ body::-webkit-scrollbar {/*Chrome*/
   display: none;
 }
 
+html {
+  height: 100%;
+}
+.main-div {
+  height: parent;
+}
+body {
+  min-height: 100%;
+}
 
 body {
   width: 100%;
