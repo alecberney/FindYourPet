@@ -1,8 +1,8 @@
 <template>
   <div class="animalsList">
-  <div class="filters">
-    awdwa
-  </div>
+    <div class="filters">
+      C'est ici que les filtres irons
+    </div>
     <div class="inner">
       <div class="list">
         <ul>
@@ -65,8 +65,7 @@ h1{
 
 .animalsList {
   background-color: var(--header-selection-color);
-  width: 100%;
-  height: 100%;
+  width: 100%;  
   display: flex;
   justify-content: right;
 }
